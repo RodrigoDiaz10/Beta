@@ -1,0 +1,63 @@
+body {
+    font  : 21px sans-serif;
+    padding : 2em;
+    margin  : 0;
+    background: white/*#2E3740;*/;
+    color: #1366be;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h1 {
+    font : small-caps;
+  }
+
+  form {
+    width  : 600px;/*740*/
+    height : 498px;/*490*/
+    margin : 0 auto;
+    box-shadow: 0 4px 10px 4px rgb(5, 81, 158);
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    margin-right: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    left: 50%;
+    margin-left: 175px;
+    color:  rgb(34, 56, 78);
+    
+  }
+
+  input {
+    width: 350px;
+    padding: 20px 0px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #435160;
+    outline: none;
+    color:  rgb(242, 244, 247);
+    font-size: 16px;
+    cursor: pointer
+  }
+
+  button{
+      animation-name: shake;
+      border-radius: 3px;
+      background: rgb(13, 69, 173);
+      border: 0;
+      width: 350px;
+      height: 40px;
+      outline: none;
+      border-radius: 0;
+      padding: 15px 0;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      color: rgb(237, 241, 245) ;
+      transition: all.5s ease;
+    
+  }
