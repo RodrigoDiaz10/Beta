@@ -11,6 +11,13 @@ import { TablaAsistenciasComponent } from './tabla-asistencias/tabla-asistencias
 import { ListadoPersonasComponent } from './listado-personas/listado-personas.component';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import {RouterModule, Routes} from "@angular/router";
+
+const appRoutes: Routes = [
+  { path: '', component: ListadoPersonasComponent, data: { title: 'ListadoPersonas Component' } },
+  { path: 'listado-personas', component: ListadoPersonasComponent, data: { title: 'ListadoPersonas Component' } },
+  { path: 'registro-formulario', component: RegistroFormularioComponent, data: { title: 'RegistroFormulario Component' } }
+];
 
 @NgModule({
   declarations: [
@@ -33,7 +40,11 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    RouterModule.forRoot(
+      appRoutes,
+      { useHash: true }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,23 +1,34 @@
+<mat-toolbar color="primary">
+  <span>Beta</span>
+</mat-toolbar>
 <div class="row">
   <div class="col">
-    <button class="btn btn-primary">Nuevo Cliente</button>
+
     <table class="table table-hover">
-      <thead>
-        <tr>
-          <th scope="col"># </th>
-          <th scope="col" colspan="2"> Nombre </th>
-          <th scope="col" colspan="2"> Apellido </th>
-          <th scope="col" colspan="2"> asistencia </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let persona of personas; index as i">
-          <th scope="row">{{i+1}}</th>
-          <td>{{personas.id}}</td>
-          <td>{{personas.nombre}}</td>
-          <td>{{personas.apellido}}</td>
-        </tr>
-      </tbody>
+
+      <tr>
+        <th scope="col"># </th>
+        <th scope="col" colspan="2"> Nombre </th>
+        <th scope="col" colspan="2"> Apellido </th>
+        <th scope="col" colspan="2"> asistencia </th>
+      </tr>
+
+
+      <tr *ngFor="let persona of personas; index as i">
+        <th scope="row">{{i+1}}</th>
+      </tr>
+      <tr>
+        <td>{{personas.id}}</td>
+      </tr>
+      <tr>
+        <td>{{personas.nombre}}</td>
+      </tr>
+      <tr>
+        <td>{{personas.apellido}}</td>
+      </tr>
+
+
+      <button class="btn btn-primary">Nuevo Cliente</button>
     </table>
   </div>
 </div>
