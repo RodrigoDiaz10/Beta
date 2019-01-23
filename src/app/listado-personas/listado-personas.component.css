@@ -24,3 +24,11 @@ tbody td:before{
     display: block;
     text-align: center;
 }*/
+
+th {
+    background-color: rgb(5, 81, 158);
+    color: white;
+  }
+table{
+    width:100%;
+}
