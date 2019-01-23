@@ -2,13 +2,14 @@ body {
     font  : 21px sans-serif;
     padding : 2em;
     margin  : 0;
-    background: white/*#2E3740;*/;
+    background: whitesmoke;
     color: #1366be;
     font-family: "Open Sans", sans-serif;
   }
 
   h1 {
     font : small-caps;
+    text-shadow: 0 4px 10px 4px rgb(5, 81, 158);
   }
 
   form {

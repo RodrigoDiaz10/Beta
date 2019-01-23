@@ -25,34 +25,37 @@
   </mat-paginator>
 </div>
 -->
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-  <div>
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Nombre</th>
-              <th scope="col">Apellido</th>
-              <th scope="col">pago</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let persona of personas; index as i">
-              <th scope="row">{{i+1}}</th>
-              <td>{{personas.id}}</td>
-              <td>{{personas.nombre}}</td>
-              <td>{{personas.apellido}}</td>
-              <td>{{personas.pago}}</td>
-            </tr>
-          </tbody>
-        </table>
+<mat-toolbar color="primary">
+  <span>Beta</span>
+</mat-toolbar>
+<div class="row">
+  <div class="col">
+
+    <table class="table table-hover">
+
+      <tr>
+        <th scope="col"># </th>
+        <th scope="col" colspan="2"> Nombre </th>
+        <th scope="col" colspan="2"> Apellido </th>
+        <th scope="col" colspan="2"> asistencia </th>
+      </tr>
+
+
+      <tr *ngFor="let persona of personas; index as i">
+        <th scope="row">{{i+1}}</th>
+      </tr>
+      <tr>
+        <td>{{personas.id}} gh</td>
+      </tr>
+      <tr>
+        <td>{{personas.nombre}} gh</td>
+      </tr>
+      <tr>
+        <td>{{personas.apellido}}gh</td>
+      </tr>
+
+
+      <button class="btn btn-primary">Nuevo Cliente</button>
+    </table>
   </div>
-</body>
-</html>
+</div>

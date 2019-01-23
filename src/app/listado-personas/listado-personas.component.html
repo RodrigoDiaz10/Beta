@@ -1,34 +1,19 @@
 <mat-toolbar color="primary">
   <span>Beta</span>
 </mat-toolbar>
-<div class="row">
-  <div class="col">
 
-    <table class="table table-hover">
-
-      <tr>
-        <th scope="col"># </th>
-        <th scope="col" colspan="2"> Nombre </th>
-        <th scope="col" colspan="2"> Apellido </th>
-        <th scope="col" colspan="2"> asistencia </th>
-      </tr>
-
-
-      <tr *ngFor="let persona of personas; index as i">
-        <th scope="row">{{i+1}}</th>
-      </tr>
-      <tr>
-        <td>{{personas.id}}</td>
-      </tr>
-      <tr>
-        <td>{{personas.nombre}}</td>
-      </tr>
-      <tr>
-        <td>{{personas.apellido}}</td>
-      </tr>
-
-
-      <button class="btn btn-primary">Nuevo Cliente</button>
-    </table>
-  </div>
-</div>
+<table mdbTable>
+  <thead class="black white-text">
+    <tr>
+      <th *ngFor="let head of headElements" scope="col" colspan="6">{{head}} </th>
+    </tr>
+  </thead>
+  <tbody colspan="6">
+    <tr mdbTableCol *ngFor="let el of elements" colspan="6" >
+      <th scope="row" colspan="2">{{el.id}}</th>
+      <td colspan="6">{{el.first}}</td>
+      <td colspan="6">{{el.last}}</td>
+      <td colspan="6">{{el.handle}}</td>
+    </tr>
+  </tbody>
+</table>

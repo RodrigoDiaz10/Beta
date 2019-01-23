@@ -1,4 +1,4 @@
-table{
+ /*table{
     width:100%;
 }
 
@@ -23,4 +23,4 @@ tbody td:before{
     content:attr(data-th);
     display: block;
     text-align: center;
-}
+}*/

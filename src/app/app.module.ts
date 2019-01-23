@@ -16,7 +16,8 @@ import {RouterModule, Routes} from "@angular/router";
 const appRoutes: Routes = [
   { path: '', component: ListadoPersonasComponent, data: { title: 'ListadoPersonas Component' } },
   { path: 'listado-personas', component: ListadoPersonasComponent, data: { title: 'ListadoPersonas Component' } },
-  { path: 'registro-formulario', component: RegistroFormularioComponent, data: { title: 'RegistroFormulario Component' } }
+  { path: 'registro-formulario', component: RegistroFormularioComponent, data: { title: 'RegistroFormulario Component' } },
+  { path: 'tabla-pagos', component: TablaPagosComponent, data: { title: 'TablaPagos Component' } }
 ];
 
 @NgModule({
