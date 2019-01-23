@@ -1,4 +1,4 @@
-
+/*
 th, td {
   border-bottom : 1px solid rgb(12, 34, 228);
   text-align: center;
@@ -11,4 +11,11 @@ table{
   width: 100%;
   
   
+}*/
+th {
+    background-color: rgb(5, 81, 158);
+    color: white;
+  }
+table{
+    width:100%;
 }
