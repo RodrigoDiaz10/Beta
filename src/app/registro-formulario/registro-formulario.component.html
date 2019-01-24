@@ -1,48 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Documento de Ingreso</title>
-  
+
 </head>
 <mat-toolbar color="primary">
-    <span>Beta</span>
-  </mat-toolbar>
+  <span>Beta</span>
+</mat-toolbar>
+
 <body>
   <div style="text-align: center">
-      <h1>Registro de Usurios Nuevos</h1>
+    <h1>Registro de Usurios Nuevos</h1>
 
-      <form action="Envio.php" method="post" >
+
+    <form action="Envio.php" method="post">
+      <div  id="num1">
         <br>
-          <label for="PrimerNombre" class="PrimerNombre" ></label>
-          <input type="text" id="PrimerNombre" placeholder="Primer Nombre">
-          <br>
+        <label for="PrimerNombre" class="PrimerNombre"></label>
+        <input type="text" id="PrimerNombre" placeholder="Primer Nombre">
+        <br>
+
+        <label for="SegundoNombre" class="SegundoNombre"></label>
+        <input type="text" id="SegundoNombre" placeholder="Segundo Nombre">
+        <br>
+
+        <label for="PrimerApellido" class="PrimerApellido"></label>
+        <input type="text" id="PrimerApellido" placeholder="Primer Apellido">
+        <br>
+
+        <label for="SegundoApellido" class="SegundoApellido"></label>
+        <input type="text" id="SegundoApellido" placeholder="Segundo Apellido">
+        <br>
+
+        <label for="CI" class="CI"></label>
+        <input type="text" id="CI" placeholder="CI">
+        <br>
+
+        <label for="Pago" class="Pago"></label>
+        <input type="text" id="Pago" placeholder="Pago">
+        <br> <br>
         
-          <label for="SegundoNombre" class="SegundoNombre" ></label>
-          <input type="text" id="SegundoNombre" placeholder="Segundo Nombre">
-          <br>
+      </div>
+      <div  id ="num2">
+        <label for="Pantorrila" class="Pantorrila"></label>
+        <input type="number" id="Pantorrila" placeholder="Pantorrila">
+        <br>
+
+        <label for="Pierna" class="Pierna"></label>
+        <input type="number" id="Pierna" placeholder="Pierna">
+        <br>
+
+        <label for="Cadera" class="Cadera"></label>
+        <input type="number" id="Cadera" placeholder="Cadera">
+        <br>
+
+        <label for="Cintura" class="Cintura"></label>
+        <input type="number" id="Cintura" placeholder="Cintura">
+        <br>
+
+        <label for="Pecho" class="Pecho"></label>
+        <input type="number" id="Pecho" placeholder="Pecho">
+        <br>
+
+        <label for="Biceps" class="Biceps"></label>
+        <input type="number" id="Biceps" placeholder="Biceps">
+        <br>
+
+        <label for="Hombros" class="Hombros"></label>
+        <input type="number" id="Hombros" placeholder="Primer Nombrehombros">
+        <br><br><br>
+
         
-          <label for="PrimerApellido" class="PrimerApellido" ></label>
-          <input type="text" id="PrimerApellido" placeholder="Primer Apellido">
-          <br>
-        
-          <label for="SegundoApellido" class="SegundoApellido" ></label>
-          <input type="text" id="SegundoApellido" placeholder="Segundo Apellido">
-          <br>
-        
-          <label for="CI" class="CI" ></label>
-          <input type="text" id="CI" placeholder="CI">
-          <br>
-        
-          <label for="Pago" class="Pago" ></label>
-          <input type="text" id="Pago" placeholder="Pago">
-          <br> <br>
-          <button type="submit" class="button button-block" >Guardar</button>
-      </form>
+
+
+
+      </div>
+      <button type="submit" class="button button-block">Guardar</button>
+    </form>
+
+
+
 
   </div>
-  
+
 </body>
+
 </html>

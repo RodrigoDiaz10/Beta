@@ -13,8 +13,8 @@ body {
   }
 
   form {
-    width  : 600px;/*740*/
-    height : 498px;/*490*/
+    width  : 1000px;/*740-600*/
+    height : 598px;/*490-498*/
     margin : 0 auto;
     box-shadow: 0 4px 10px 4px rgb(5, 81, 158);
   }
@@ -60,5 +60,16 @@ body {
       letter-spacing: 0.1em;
       color: rgb(237, 241, 245) ;
       transition: all.5s ease;
+     
+      text-align:center;
     
+  }
+  #num2{
+    margin-left : 390px;
+    margin-top  : -425px;
+  }
+
+  #num1{
+    margin-right : 550px;
+    top  : 285px;
   }
