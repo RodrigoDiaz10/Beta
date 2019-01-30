@@ -1,0 +1,28 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <h1>Fibonacci</h1>
+  <form action="localhots" method="get">
+    <p>Primer numero:
+      <input type="number" id="number1" min="0" required="true"/>
+    </p>
+    <p>Segundo numero:
+      <input type="number" id="number2" min="0" required="true"/>
+    </p>
+    <p>
+      <input type="reset" value="Calcular" onclick="validate()" />
+    </p>
+    <h2>
+      <label id="label1" />
+    </h2>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script languaje="javascript" src="./src/validations.js"></script>
+  <script languaje="javascript" src="./src/operation.js"></script>
+</body>
+
+</html>
