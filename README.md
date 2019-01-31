@@ -5,9 +5,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Firebase ruta
 
 https://angular-templates.io/tutorials/about/angular-crud-with-firebase
+
 https://dzone.com/articles/crud-operation-with-angular-5-http-client-and-aspn
+
 https://www.djamware.com/post/5b87894280aca74669894414/angular-6-httpclient-consume-restful-api-example
+
 https://www.uno-de-piera.com/consumir-api-rest-con-httpclient-angular-5/
+
+http://www.vidadelprogramador.com/crear-backup-automatico-de-base-de-datos-mysql-con-un-cron/
 
 ## Development server
 
