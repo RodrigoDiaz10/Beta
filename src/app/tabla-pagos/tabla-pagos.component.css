@@ -13,9 +13,22 @@ table{
   
 }*/
 th {
-    background-color: rgb(5, 81, 158);
-    color: white;
-  }
-table{
-    width:100%;
+  background-color: rgba(5, 82, 158, 0.74);
+  color: rgb(5, 81, 158);
+  box-shadow: 0 1px 1px 0px rgb(5, 81, 158);
 }
+table{
+  position: relative;
+  left: 3%;
+  width:90%;
+  border-collapse: collapse;
+  color: rgb(5, 81, 158);
+  text-align: center;
+}
+td {
+ /* width: 15px; /*Aquí va el ancho de la Celda*/
+  height: 50px; /*Aquí el Alto*/
+  background-color: transparent;
+  color: rgb(5, 81, 158);
+  box-shadow: 0 1px 1px 0px rgb(5, 81, 158);
+  }
