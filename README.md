@@ -25,6 +25,11 @@ https://loopback.io/examples/ revisar
     "connector": "memory"
   },
   borrado de datasource.json
+  
+  
+## Video para configurar visitar la página
+
+https://www.youtube.com/watch?v=nmho72zZwD4&index=6&list=PL_9MDdjVuFjGJm9hBCwIb2nkLYIf83o2A
 
 ## Development server
 
