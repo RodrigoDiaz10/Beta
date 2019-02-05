@@ -11,7 +11,12 @@ import { TablaAsistenciasComponent } from './tabla-asistencias/tabla-asistencias
 import { ListadoPersonasComponent } from './listado-personas/listado-personas.component';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import {RouterModule, Routes} from "@angular/router";
+import { RouterModule, Routes} from "@angular/router";
+
+
+import { HttpClientModule } from '@angular/common/http';
+//service
+import { DataApiService } from './services/data-api.service';
 
 const appRoutes: Routes = [
   { path: '', component: ListadoPersonasComponent, data: { title: 'ListadoPersonas Component' } },
@@ -47,7 +52,7 @@ const appRoutes: Routes = [
       { useHash: true }
     )
   ],
-  providers: [],
+  providers: [DataApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

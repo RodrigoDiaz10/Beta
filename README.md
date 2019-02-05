@@ -14,6 +14,18 @@ https://www.uno-de-piera.com/consumir-api-rest-con-httpclient-angular-5/
 
 http://www.vidadelprogramador.com/crear-backup-automatico-de-base-de-datos-mysql-con-un-cron/
 
+##Cambios hechos !! IMPORTANTE LEER XD!!
+
+Instalacion de loopback ---  npm install -g loopback-cli  --- 
+
+https://loopback.io/examples/ revisar
+
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  borrado de datasource.json
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
