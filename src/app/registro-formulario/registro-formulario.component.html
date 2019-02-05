@@ -17,7 +17,7 @@
     <h1>Registro de Usurios Nuevos</h1>
 
 
-    <form action="Envio.php" method="post">
+    <form class="Form-Cliente" #formCliente="ngForm" (ngSubmit)="onSaveCliente(formCliente)">
       <div  id="num1">
         <br>
         <label for="PrimerNombre" class="PrimerNombre"></label>
