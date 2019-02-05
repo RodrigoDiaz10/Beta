@@ -27,11 +27,6 @@ https://loopback.io/examples/ revisar
   borrado de datasource.json
   
   
-## Video para configurar visitar la página
-
-https://www.youtube.com/watch?v=e0NGbz_1atg&t=756s
-https://www.youtube.com/watch?v=nmho72zZwD4&index=6&list=PL_9MDdjVuFjGJm9hBCwIb2nkLYIf83o2A
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
