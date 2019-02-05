@@ -13,18 +13,6 @@ https://www.djamware.com/post/5b87894280aca74669894414/angular-6-httpclient-cons
 https://www.uno-de-piera.com/consumir-api-rest-con-httpclient-angular-5/
 
 http://www.vidadelprogramador.com/crear-backup-automatico-de-base-de-datos-mysql-con-un-cron/
-
-##Cambios hechos !! IMPORTANTE LEER XD!!
-
-Instalacion de loopback ---  npm install -g loopback-cli  --- 
-
-https://loopback.io/examples/ revisar
-
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  borrado de datasource.json
   
   
 ## Development server
