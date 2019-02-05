@@ -29,6 +29,7 @@ https://loopback.io/examples/ revisar
   
 ## Video para configurar visitar la página
 
+https://www.youtube.com/watch?v=e0NGbz_1atg&t=756s
 https://www.youtube.com/watch?v=nmho72zZwD4&index=6&list=PL_9MDdjVuFjGJm9hBCwIb2nkLYIf83o2A
 
 ## Development server
