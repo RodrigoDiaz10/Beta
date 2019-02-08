@@ -16,7 +16,7 @@ import { RouterModule, Routes} from "@angular/router";
 
 import { HttpClientModule } from '@angular/common/http';
 //service
-import { DataApiService } from './services/data-api.service';
+import { DataApiService } from 'apiClientes/client/services/data-api.service';
 
 const appRoutes: Routes = [
   { path: '', component: ListadoPersonasComponent, data: { title: 'ListadoPersonas Component' } },
@@ -46,6 +46,7 @@ const appRoutes: Routes = [
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
+    HttpClientModule,
     MatListModule,
     RouterModule.forRoot(
       appRoutes,

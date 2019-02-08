@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataApiService } from '../services/data-api.service';
+import { DataApiService } from '../../../apiClientes/client/services/data-api.service';
 import { NgForm } from '@angular/forms';
 import { Location } from '@angular/common';
 @Component({
@@ -22,12 +22,12 @@ export class ListadoPersonasComponent implements OnInit {
   ngOnInit() {
     this.getListClientes();
   }
-  //
+  /*
   onSave(clienteForm):void{
     this.dataApiService.saveCliente(clienteForm.value).subscribe(cliente => location.reload())
   }
 
-  //
+  */
 
   elements: any = [
     {id: 1, first: 'Mark', last: 'Otto', handle: '@mdo'},

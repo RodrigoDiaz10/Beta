@@ -21,7 +21,7 @@ export class DataApiService {
   }
 
   constructor( private http: HttpClient ) { }
-
+/*
   headers: HttpHeaders = new HttpHeaders({
     "Content-Type": "aplication/json",
     Authorization: token;
@@ -56,5 +56,5 @@ export class DataApiService {
     const url_api = `http://localhost:3000/api/clientes/${id} `;
     return this.http.delete(url_api cliente,{ headers: this.headers })
     .pipe(map(data))=> data));
-  }
+  }*/
 }
